@@ -1,0 +1,168 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color and text color for the entire page */
+body {
+    background-image: url('5651995.png');;
+    color: #c368ff;
+    font-family: 'Poppins',sans-serif;
+}
+
+/* Header styles */
+header {
+    background-image: url('5651995.png');;
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+/* CSS to change the color of the paragraph text to white */
+#about p {
+    color: white;
+}
+#skills li{
+    color: white; 
+}
+#projects h3{
+    color: #ffffff;
+}
+#projects li{
+    color: #fff;
+}
+#resume p{
+    color:white;
+}
+#contact p{
+    color: #fff;
+}
+header p {
+    font-size: 36px;
+    color: #fff;
+}
+
+/* Logo and profile image styles */
+.logo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.profile-image {
+    width: 300px;
+    height: 200px;
+   
+    margin: 20px auto;
+    display: block;
+
+}
+
+/* Main content container */
+section {
+    background: transparent;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.profile-image {
+    max-width: 300px; /* Adjust the width as needed */
+    height: auto; /* Maintain the aspect ratio */
+
+}
+
+/* Section headers */
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Skills list */
+ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+/* Project styles */
+.project {
+    margin-bottom: 20px;
+}
+
+.project img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.project h3 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+/* Contact information */
+#contact p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/* Footer styles */
+footer {
+    background-image: url('5651995.png');;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Responsive styles for smaller screens */
+@media screen and (max-width: 768px) {
+    header h1 {
+        font-size: 24px;
+    }
+
+    header p {
+        font-size: 16px;
+    }
+
+    .logo, .profile-image {
+        width: 80px;
+        height: 80px;
+        margin-bottom: 10px;
+    }
+
+    .project h3 {
+        font-size: 18px;
+    }
+    /* CSS for changing Font Awesome icon colors back to original */
+.footer-links a i.fab {
+    color: inherit; /* Use the color defined by the parent element */
+}
+
+}
